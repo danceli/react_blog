@@ -1,0 +1,9 @@
+#section {
+  /* position: relative; */
+  box-sizing: border-box;
+  flex: 3;
+  padding: 0em 1%;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+}

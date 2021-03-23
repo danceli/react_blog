@@ -1,0 +1,33 @@
+
+.linux-container {
+  margin: 0;
+  padding: 0 1%;
+  box-sizing: border-box;
+
+}
+
+.linux-container .load-more {
+  margin-top: 2em;
+  text-align: center;
+}
+.linux-container .load-more button {
+  cursor: pointer;
+  width: 12em;
+  font-size: .8em;
+  font-family: '微软雅黑';
+  height: 2.5em;
+  background: #ffffff;
+  outline: none;
+  border: 1.5px solid #ccc;
+  border-radius: 4em;
+  transition: .3s all ease;
+  color: #999;
+  font-size: .8em;
+}
+.linux-container .load-more button:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+.like {
+  color: pink;
+}

@@ -1,0 +1,69 @@
+
+.login-inner {
+  border-radius: .3em;
+  box-shadow: 1px 1px 0.7em rgba(0, 0, 0, .3);
+  width: 22em;
+  height: 28em;
+  background: #fff;
+  margin: auto;
+}
+.login-inner .close-icon {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.login-inner .close-icon i{
+  padding-top: 1em;
+  padding-right: 1em;
+  color: #ccc;
+  font-size: .8em;
+  cursor: pointer;
+}
+.login-inner .login-header {
+  padding-top: 2em;
+  font-size: 1.5em;
+}
+.login-inner .login-form {
+  box-sizing: border-box;
+  margin-top: .8em;
+  width: 19em;
+  display: inline-block;
+}
+.login-inner .login-form div {
+  padding-top: 1.5em;
+  position: relative;
+  left: 0;
+}
+.login-inner .login-form .username {
+  display: inline;
+  box-sizing: border-box;
+  padding-top: 0;
+}
+.login-inner .login-form div .login-input {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 2.8em;
+  outline: none;
+  border-radius: .25em;
+  padding-left: .8em;
+  font-size: .8em;
+  color: rgba(0, 0, 0, .7);
+}
+.login-inner .login-form div .login-input:focus {
+  border-color: rgba(0, 0, 0, 1);
+}
+.login-inner .login-form div  i {
+  font-size: .8em;
+  position: absolute;
+  left: .2em;
+  bottom: -1.2em;
+  color: red;
+}
+.login-inner .login-form div .login-input::placeholder {
+  box-sizing: border-box;
+  height: 2em;
+  line-height: 2em;
+  color: rgba(0, 0, 0, .2);
+  font-size: PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+}

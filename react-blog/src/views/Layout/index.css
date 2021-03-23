@@ -1,0 +1,13 @@
+
+.layout {
+	max-width: 1800px;
+	margin: 0 auto;
+	height: 100%;
+	background: #fff;
+}
+.layout #content-container {
+	padding: 0.7em 2%; 
+	display: flex;
+	overflow: hidden;
+	box-sizing: border-box;
+}

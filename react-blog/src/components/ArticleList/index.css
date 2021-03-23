@@ -1,0 +1,64 @@
+.list {
+  margin: 0;
+  padding: 0;
+}
+.list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #ccc ;
+  cursor: pointer;
+}
+.list li:first-child {
+  border-top: 1px solid #ccc;
+}
+.list li .list-item {
+  box-sizing: border-box;
+  padding: 0 2%;
+}
+.list li .list-item .list-meta {
+  box-sizing: border-box;
+  padding: .6em 0;
+}
+.list li .list-item .list-meta .item {
+  font-size: .75em;
+  color: #ccc;
+}
+
+.list li .list-item .list-meta .auth::after {
+  padding: 0 .4em;
+  content: "·";
+}
+.list li .list-item .list-meta .time::after {
+  padding: 0 .5em;
+  content: "·";
+}
+
+.list li .list-item .title-row {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-bottom: .4em;
+}
+
+.list li .list-item .action-list {
+  display: inline-flex;
+  padding-bottom: .8em;
+  align-items: center;
+}
+.list li .list-item .action-list span {
+  vertical-align: middle;
+  color: #ccc;
+  font-size: .7em;
+  border: 1px solid #ccc;
+  padding: .2em .7em;
+  cursor: pointer;
+}
+.list li .list-item .action-list span:hover {
+  background-color: rgba(0, 0, 300, .01);
+}
+.list li .list-item .action-list span:first-child {
+  border-right: none;
+}
+.list li .list-item .action-list span i {
+  padding-right: .3em;
+}

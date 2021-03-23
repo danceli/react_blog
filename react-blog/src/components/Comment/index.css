@@ -1,0 +1,142 @@
+
+.comments-container {
+  width: 100%;
+  margin-top: 2em;
+  border-top: 1px solid #ccc;
+}
+
+.comments-container .comments-form {
+  box-sizing: border-box;
+  width: 38em;
+  background: #fff;
+  text-align: center;
+  margin: 2em auto;
+  border-radius: .2em;
+  box-shadow: 1px 1px .7em rgba(0, 0, 0, .3);
+}
+
+.comments-container .comments-form .input-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: .5em .7em;
+  display: inline-flex;
+  align-items: center;
+  font-size: .9em;
+}
+
+.comments-container .comments-form .input-header .username {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-bottom: 1.1px dashed #ccc;
+  color: rgba(0, 0, 0, .6);
+  background: none;
+}
+.comments-container .comments-form .input-header .username:focus {
+  border-color: turquoise;
+}
+
+.comments-container .comments-form .input-header .email {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-bottom: 1.1px dashed #ccc;
+  color: rgba(0, 0, 0, .6);
+  background: none;
+}
+
+.comments-container .comments-form .input-header .email:focus {
+  border-color: turquoise;
+}
+.comments-container .comments-form .comment-content {
+  box-sizing: border-box;
+  padding: .7em;
+}
+.comments-container .comments-form .comment-content textarea {
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  display: block;
+  height: 10em;
+  font-size: .9em;
+}
+.comments-container .comments-form .submit {
+  padding: .7em;
+  text-align: right;
+}
+
+.comments-container .comments-form .submit button {
+  transition: .3s all ease;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: .87em;
+  padding: .4em .8em;
+  color: rgba(0, 0, 0, .7);
+  border-radius: .2em;
+}
+.comments-container .comments-form .submit button:hover {
+  background-color: lightslategrey;
+  color: #fff;
+}
+
+.comments-container .comment-list-container {
+  box-sizing: border-box;
+  width: 38em;
+  text-align: center;
+  margin: 0 auto;
+}
+.comments-container .comment-list-container .comment-list-item {
+  padding-top: .5em;
+  width: 100%;
+  display: flex;
+  padding-bottom: .5em;
+  border-bottom: 1px dashed #ccc;
+}
+.comments-container .comment-list-container .comment-list-item:first-child {
+  padding-top: 0;
+}
+.comments-container .comment-list-container .comment-list-item .comment-item-avatar {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-size: 100%;
+  transform: rotate(0deg);
+  transition: .4s all ease;
+}
+.comments-container .comment-list-container .comment-list-item .comment-item-avatar:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+.comments-container .comment-list-container .comment-list-item .comment-content {
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: .6em;
+  font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial;
+}
+.comments-container .comment-list-container .comment-list-item .comment-content .comment-title {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: .85em;
+  cursor: pointer;
+  transition: .3s all ease;
+}
+.comments-container .comment-list-container .comment-list-item .comment-content .comment-title:hover {
+  color: pink;
+}
+
+.comments-container .comment-list-container .comment-list-item .comment-content .comment-text {
+  margin-top: .6em;
+  font-size: .8em;
+  color: rgba(0, 0, 0, .7);
+}
+.comments-container .comment-list-container .comment-list-item .comment-content .comment-time {
+  padding-top: .4em;
+  font-size: .75em;
+  color: #ccc;
+}

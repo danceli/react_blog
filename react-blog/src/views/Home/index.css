@@ -1,0 +1,96 @@
+.home-container {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.home-container .grid-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home-container .grid-container .grid-item {
+  box-sizing: border-box;
+  padding: .5em;
+  width: 33.3333333%;
+  border-radius: .3em;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+.home-container .grid-container .grid-item:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+.home-container .grid-container .grid-item .bottom-container {
+  height: 100%;
+  background: #eaeaea;
+  padding-left: .7em;
+  border-radius: 0 0 .3em .3em;
+}
+.home-container .grid-container .grid-item .bottom-container div {
+  box-sizing: border-box;
+  padding-bottom: .8em;
+}
+.home-container .grid-container .grid-item .top-img {
+  height: 8em;
+  width: 100%;
+  border-radius: .3em .3em 0 0;
+}
+.home-container .grid-container .grid-item .top-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: .3em .3em 0 0;
+}
+
+.home-container .grid-container .grid-item .title {
+  padding-top: .7em;
+  font-size: .9em;
+}
+.home-container .grid-container .grid-item .auth {
+  font-size: .7em;
+  color: rgba(0, 0, 0, .5);
+  font-weight: bold;
+}
+.home-container .grid-container .grid-item .bottom-container .grid-footer {
+  display: flex;
+  align-items: center;
+
+}
+.home-container .grid-container .grid-item .bottom-container .grid-footer span {
+  font-size: .6em;
+  padding-top: .8em;
+  color: #ccc;
+}
+.home-container .grid-container .grid-item .bottom-container .grid-footer span i {
+  padding-left: .3em;
+}
+
+.home-container .load-more {
+  margin-top: 2.5em;
+  text-align: center;
+
+}
+
+.home-container .load-more button {
+  margin: 0;
+  padding: .2em;
+  font-family: '微软雅黑';
+  width: 12em;
+  /* line-height: 2.5em; */
+  height: 2.5em;
+  background: #ffffff;
+  outline: none;
+  border: none;
+  border: 1.5px solid #ccc;
+  border-radius: 4em;
+  transition: .3s all ease;
+  color: #999;
+  font-size: .8em;
+}
+.home-container .load-more button:hover {
+  cursor: pointer;
+  background: black;
+  color: #fff;
+}

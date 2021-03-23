@@ -1,0 +1,35 @@
+.donation-container {
+  box-sizing: border-box;
+  padding-right: .7em;
+}
+.donation-container .donation-title {
+  font-size: .8em;
+  font-weight: bolder;
+  letter-spacing: -.7px;
+}
+
+.donation-container .text-widget {
+  font-size: .9em;
+  font-family: '宋体';
+  font-weight: bold;
+}
+.donation-container .donation-images {
+  display: inline-flex;
+}
+.donation-container .wechat-img {
+  padding: .2em;
+  padding-left: 0;
+  flex: 1;
+  text-align: center;
+}
+.donation-container .alipay-img {
+  padding: .2em;
+  flex: 1;
+  text-align: center;
+}
+.donation-container .wechat-img img {
+  width: 100%;
+}
+.donation-container .alipay-img img {
+  width: 100%;
+} 

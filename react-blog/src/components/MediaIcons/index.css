@@ -1,0 +1,30 @@
+.media-icons {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: block;
+}
+.media-icons li {
+	display: inline-block;
+	box-sizing: border-box;	
+	margin-right: .4em;
+	text-align: center;
+	float: right;
+}
+.media-icons li a {
+	cursor: pointer;
+	text-align: center;
+	width: 1.1em;
+	height: 1.1em;
+	display: inline-block;
+	padding: .08em;
+	border: .3px solid black;
+	border-radius: .2em;
+}
+.media-icons li a:hover {
+	color: rgba(0,0,0,.6);
+}
+.media-icons li a i {
+	font-size: 1em;
+}

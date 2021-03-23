@@ -1,0 +1,26 @@
+.about-container {
+  box-sizing: border-box;
+  padding: .2em 1em;
+  background: #fff;
+  box-shadow: 1px 1px .7em rgba(0, 0, 0, .3);
+} 
+.about-container .about-header {
+  width: 100%;
+  height: 3.8em;
+  line-height: 3.8em;
+  padding-left: 1em;
+  border-bottom: 1px solid #ccc;
+}
+.about-container .about-body {
+  box-sizing: border-box;
+  margin-top: 1em;
+  font-size: .9em;
+  padding-bottom: 1em;
+  color: rgba(0, 0, 0, .7);
+}
+.about-container .about-wechat {
+  text-align: center;
+}
+.about-container .about-wechat img {
+  width: 10em;
+}
